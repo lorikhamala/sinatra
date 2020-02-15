@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+    	<form action="/submitted" method="POST">
+          <style>
+          </style>
+          
+          <h1> List your home with us and sell quickly!</h1>
+          
+          <h3> Location </h3>
+          <label> Address of Property </label>
+          <input type="text" name="address"> <br>
+          <label> City </label>
+          <input type="text" name="city"> 
+          <label> State </label>
+          <input type="text" name="state"> <br>
+          
+          <h3> House Information </h3>
+          <label> Square Footage </label>
+          <input type="text" name="squarefeet"> 
+          <label> Number of Rooms </label>
+          <input type="text" name="numberrooms"> <br>
+          <label> Type </label>
+          <input type="radio" name="hometype1" value="single family"> Single Family 
+          <input type="radio" name="hometype2" value="multi family"> Multi Family <span>
+          <label  id="yearbuilt"> Year Built  </label>
+          <select name = "year built">
+            <option value="2010"> 2010 </option>
+            <option value="2011"> 2011 </option>
+            <option value="2012"> 2012 </option>
+            <option value="2013"> 2013 </option>
+            <option value="2014"> 2014 </option>
+            <option value="2015"> 2015 </option>
+            <option value="2016"> 2016 </option>
+            <option value="2017"> 2017 </option>
+            <option value="2018"> 2018 </option> 
+            </span>
+          </select>
+          
+          <h3> Home Features </h3>
+          <input type="checkbox" name="feature1" value="fireplace"> Fireplace <br>
+          <input type="checkbox" name="feature2" value="basement"> Basement <br>
+          <input type="checkbox" name="feature3" value="garage"> Garage <br>
+          <input type="checkbox" name="feature4" value="fenced yard"> Fenced Yard <br>
+          <input type="checkbox" name="feature5" value="screened porch"> Screened Porch <br>
+          <div>
+            <h3> Description </h3>
+            <textarea> </textarea>
+                   </div>
+          <div>
+            <br> 
+<input type="Submit" value="Submit"> 
+          </div>                                               
+ </div>
+
+          
+</body>
+</html>
