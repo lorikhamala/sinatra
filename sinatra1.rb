@@ -26,6 +26,42 @@ get '/greet' do
 end 
 
 
+# get '/candlestore' do
+# 	@num = params[:candlenum]
+# 	erb :howmany
+# end 
+
+get '/howmany' do
+	erb :howmany
+end 
+	
+post '/candles' do
+  @x = params[:candlenum].to_i
+  @y = params[:num2].to_i
+  @z = params[:num3].to_i
+  erb :candles
+end
+
+
+
+	# x = params[:candlenum]
+	# x.times do
+	# 	get'/candles' do
+	# 	erb :candles
+	# 	end
+	# end 
+
+# In my candles.erb file:
+
+# <!DOCTYPE html>
+# <html> <head> </head> <body>
+
+# <img src="https://cdn3.volusion.com/nrtht.vrgud/v/vspfiles/photos/10010-2.jpg">
+
+# </body>
+# </html>
+
+
 
 
 
